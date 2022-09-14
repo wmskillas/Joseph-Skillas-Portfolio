@@ -16,12 +16,36 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Homepage />} />
-          <Route exact path="/music-videos" element={<MusicVideos />} />
-          <Route exact path="/credits" element={<Credits />} />
-          <Route exact path="/stills" element={<Stills />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/carousel" element={<ImageCycle />} />
+          <Route
+            exact
+            path="/Joseph-Skillas-Portfolio/"
+            element={<Homepage />}
+          />
+          <Route
+            exact
+            path="/Joseph-Skillas-Portfolio/music-videos"
+            element={<MusicVideos />}
+          />
+          <Route
+            exact
+            path="/Joseph-Skillas-Portfolio/credits"
+            element={<Credits />}
+          />
+          <Route
+            exact
+            path="/Joseph-Skillas-Portfolio/stills"
+            element={<Stills />}
+          />
+          <Route
+            exact
+            path="/Joseph-Skillas-Portfolio/about"
+            element={<About />}
+          />
+          <Route
+            exact
+            path="/Joseph-Skillas-Portfolio/carousel"
+            element={<ImageCycle />}
+          />
         </Routes>
       </Router>
     </>
