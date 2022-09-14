@@ -11,6 +11,7 @@ header {
   display: flex;
   justify-content: center;
 }
+
 header h4 {
   text-align: right;
   flex-direction: row;
@@ -31,46 +32,79 @@ body {
   padding-bottom: 10.2rem;
 }
 
+/* changes the name in all areas */
 .purpleText {
   color: #7959d2;
-  font-size: 75px;
+  font-size: 85px;
   font-style: oblique;
+  text-shadow: 5px 5px black;
+}
+
+/* sets size of carousel on homepage */
+.carouselSize {
+  margin-bottom: 30px;
+  margin-right: 5px;
+  justify-content: center;
 }
 
 ul {
   list-style: circle;
 }
 
-.hpImage {
-  width: 30rem;
-  margin-top: 2rem;
-}
-
+/* set copyright position */
 .copyRight {
   display: flex;
   justify-content: center;
 }
 
+/* adjust text area display and text color */
 .textAlign {
   color: white;
   display: flex;
   align-items: flex-end;
 }
+
+/* margin for page text to align properly */
+.hpMarginLeft {
+  margin-left: 40px;
+}
+
+/* set font size */
+.textSize {
+  font-size: 23px;
+}
+
+/* I don't know why this does what it does */
 .why {
   margin-right: 18rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
+/* aligns some of the li in the header */
 .headerList {
   margin-left: 8px;
 }
 
+/* makes spacing for about in header */
 .about {
   margin-top: 20px;
   font-weight: bold;
 }
 
+/* makes spacing for home in header */
+.homeIcon {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* bring list in text area up some */
+#marginTop {
+  margin-top: -20px;
+}
+
+/* sets the background color and size for the text area */
 .textBg {
   background-color: #413d4cd3;
   padding-top: 50px;
@@ -81,36 +115,35 @@ ul {
   margin-bottom: 15px;
 }
 
+/* sets text property for text area */
 .textPosition {
   display: flex;
   justify-content: flex-start;
   text-align: left;
 }
 
+/* sets copyright background color */
 .cpBg {
   background-color: #413d4c;
 }
 
+/* made to adjust header list margin with different screen sizes */
 .headerMargin {
   margin-right: 0px;
 }
 
+/* same as headerMargin but for about About specifically */
 .contactMargin {
   margin-right: 0px;
 }
 
+/* sets footer position for copyright */
 .footer {
   position: fixed;
   left: 0px;
   bottom: -8px;
   height: 30px;
   width: 100%;
-  /* background:#999; */
-}
-
-.photoBorder {
-  /* background-image: url("../src/images/frame.jpeg");
-  background-size: cover; */
 }
 
 @media screen and (max-width: 2560px) {
@@ -121,7 +154,7 @@ ul {
 
 @media screen and (max-width: 1920px) {
   body {
-    background-size: 1920px;
+    background-size: 2100px;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -144,7 +177,7 @@ ul {
   .textBg {
     margin-top: 3rem;
   }
-  .hpImage {
+  .carouselSize {
     margin-bottom: 1rem;
   }
 }
@@ -155,12 +188,12 @@ ul {
   }
 }
 @media screen and (max-width: 900px) {
-  .hpImage {
+  .carouselSize {
     margin-left: 40px;
   }
 }
 @media screen and (max-width: 650px) {
-  .hpImage {
+  .carouselSize {
     margin-left: 70px;
   }
 }

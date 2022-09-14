@@ -1,6 +1,9 @@
 import React from "react";
 import Sunflower from "../images/sunflower.jpg";
 import { Link } from "react-router-dom";
+import { render } from 'react-dom';
+import Carousel from './Carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Homepage = () => {
   return (
@@ -9,6 +12,14 @@ const Homepage = () => {
         <header className="py-5">
           <h1 className="purpleText text-end">Joseph Donato Skillas</h1>
           <div className="flex-direction-row">
+            <h4 className="text-start">
+              <Link
+                className="text-white headerList text-decoration-none headerMargin d-flex homeIcon"
+                to="/"
+              >
+                :Home:
+              </Link>
+            </h4>
             <h4 className="text-start">
               <Link
                 className="text-white headerList text-decoration-none fw-bold headerMargin d-flex"
@@ -43,22 +54,20 @@ const Homepage = () => {
             </h4>
           </div>
         </header>
-        <div className="textAlign container">
-          <img
-            className="hpImageAlign hpImage"
-            src={Sunflower}
-            alt="Photos by Joseph Skillas"
-          ></img>
-          <div className="textBg fw-bold">
-            <p className="text-white fs-4">
-              Visual artist from Atlanta, Georgia{" "}
+        <div className="mt-5 textAlign container">
+          <div className="">
+            <Carousel />
+          </div>
+          <div className="textBg fw-bold textSize">
+            <p className="text-white hpMarginLeft">
+              Visual artist from Atlanta, Georgia
             </p>
-            <p className="text-white fs-4">
+            <p className="text-white hpMarginLeft">
               Creative freelancing in the United States and abroad, currently
               studying in Roma, Italia.
             </p>
             <br />
-            <ul className="textAlign text-white fs-4  display-flex flex-direction-column flex-wrap">
+            <ul className="textAlign text-white display-flex flex-direction-column flex-wrap" id="marginTop">
               <li className="m-4">Director of Photography</li>
               <li className="why">Art Direction</li>
               <li className="m-4">Production Design</li>
