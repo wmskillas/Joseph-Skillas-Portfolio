@@ -11,7 +11,7 @@ const MusicVideos = () => {
           <h4 className="text-start">
               <Link
                 className="text-white headerList text-decoration-none headerMargin d-flex homeIcon"
-                to="/Joseph-Skillas-Portfolio/"
+                to="/"
               >
                 :Home:
               </Link>
@@ -19,7 +19,7 @@ const MusicVideos = () => {
             <h4 className="text-start">
               <Link
                 className="text-white headerList text-decoration-none fw-bold headerMargin d-flex"
-                to="/Joseph-Skillas-Portfolio/music-videos"
+                to="/music-videos"
               >
                 :Music Videos:
               </Link>
@@ -27,7 +27,7 @@ const MusicVideos = () => {
             <h4>
               <Link
                 className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
-                to="/Joseph-Skillas-Portfolio/stills"
+                to="/stills"
               >
                 :Stills:
               </Link>
@@ -35,7 +35,7 @@ const MusicVideos = () => {
             <h4>
               <Link
                 className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
-                to="/Joseph-Skillas-Portfolio/credits"
+                to="/credits"
               >
                 :Credits:
               </Link>
@@ -43,7 +43,7 @@ const MusicVideos = () => {
             <h4 className="about">
               <Link
                 className="text-white m-2 text-decoration-none contactMargin d-flex"
-                to="/Joseph-Skillas-Portfolio/about"
+                to="/about"
               >
                 :About|Contact:
               </Link>
