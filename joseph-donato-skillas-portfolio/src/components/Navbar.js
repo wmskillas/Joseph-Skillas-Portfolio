@@ -1,47 +1,49 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <header className="py-5">
       <h1 className="purpleText text-end">Joseph Donato Skillas</h1>
       <div className="flex-direction-row">
         <h4 className="text-start">
-          <a
-            href="/"
+          <Link
+            to="/Joseph-Skillas-Portfolio/"
             className="text-white headerList text-decoration-none headerMargin d-flex homeIcon"
           >
             :Home:
-          </a>
+          </Link>
         </h4>
         <h4 className="text-start">
-          <a
-            href="/music-videos"
+          <Link
+            to="/Joseph-Skillas-Portfolio/music-videos"
             className="text-white headerList text-decoration-none fw-bold headerMargin d-flex"
           >
             :Music Videos:
-          </a>
+          </Link>
         </h4>
         <h4 className="text-start">
-          <a
-            href="/stills"
+          <Link
+            to="/Joseph-Skillas-Portfolio/stills"
             className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
           >
             :Stills:
-          </a>
+          </Link>
         </h4>
         <h4 className="text-start">
-          <a
-            href="/credits"
+          <Link
+            to="/Joseph-Skillas-Portfolio/credits"
             className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
           >
             :Credits:
-          </a>
+          </Link>
         </h4>
         <h4 className="about">
-          <a
-            href="/about"
+          <Link
+            to="/Joseph-Skillas-Portfolio/about"
             className="text-white m-2 text-decoration-none contactMargin d-flex"
           >
             :About|Contact:
-          </a>
+          </Link>
         </h4>
       </div>
     </header>

@@ -19,11 +19,26 @@ function App() {
         <Navbar />
         <div>
           <Routes>
-            <Route exact path="/" element={<Homepage />} />
-            <Route exact path="/music-videos" element={<MusicVideos />} />
-            <Route exact path="/stills" element={<Stills />} />
-            <Route exact path="/credits" element={<Credits />} />
-            <Route exact path="/about" element={<About />} />
+            <Route
+              path="/Joseph-Skillas-Portfolio/"
+              element={<Homepage />}
+            />
+            <Route
+              path="/Joseph-Skillas-Portfolio/music-videos"
+              element={<MusicVideos />}
+            />
+            <Route
+              path="/Joseph-Skillas-Portfolio/stills"
+              element={<Stills />}
+            />
+            <Route
+              path="/Joseph-Skillas-Portfolio/credits"
+              element={<Credits />}
+            />
+            <Route
+              path="/Joseph-Skillas-Portfolio/about"
+              element={<About />}
+            />
           </Routes>
         </div>
       </div>
