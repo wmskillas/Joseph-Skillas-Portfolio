@@ -13,18 +13,23 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Homepage />} />
-          <Route exact path="/music-videos" element={<MusicVideos />} />
-          <Route exact path="/credits" element={<Credits />} />
-          <Route exact path="/stills" element={<Stills />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/carousel" element={<ImageCycle />} />
-        </Routes>
-      </Router>
-    </>
+    <div>
+      <body>
+        <Homepage />
+      </body>
+      <>
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Homepage />} />
+            <Route exact path="/music-videos" element={<MusicVideos />} />
+            <Route exact path="/credits" element={<Credits />} />
+            <Route exact path="/stills" element={<Stills />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/carousel" element={<ImageCycle />} />
+          </Routes>
+        </Router>
+      </>
+    </div>
   );
 }
 
