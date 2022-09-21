@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import MusicVideos from "./components/MusicVideos";
 import Credits from "./components/Credits";
@@ -13,35 +14,20 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Router>
       <div>
-        <Homepage />
-      </div>
-      <div>
-        <Router>
+        <Navbar />
+        <div>
           <Routes>
-            <Route path="/Joseph-Skillas-Portfolio" element={<Homepage />} />
-            <Route
-              path="/Joseph-Skillas-Portfolio/music-videos"
-              element={<MusicVideos />}
-            />
-            <Route
-              path="/Joseph-Skillas-Portfolio/credits"
-              element={<Credits />}
-            />
-            <Route
-              path="/Joseph-Skillas-Portfolio/stills"
-              element={<Stills />}
-            />
-            <Route path="/Joseph-Skillas-Portfolio/about" element={<About />} />
-            <Route
-              path="/Joseph-Skillas-Portfolio/carousel"
-              element={<ImageCycle />}
-            />
+            <Route exact path="/" element={<Homepage />} />
+            <Route exact path="/music-videos" element={<MusicVideos />} />
+            <Route exact path="/stills" element={<Stills />} />
+            <Route exact path="/credits" element={<Credits />} />
+            <Route exact path="/about" element={<About />} />
           </Routes>
-        </Router>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
