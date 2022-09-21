@@ -11,7 +11,7 @@ const Credits = () => {
           <h4 className="text-start">
               <Link
                 className="text-white headerList text-decoration-none headerMargin d-flex homeIcon"
-                to="/"
+                to="/Joseph-Skillas-Portfolio"
               >
                 :Home:
               </Link>
@@ -19,7 +19,7 @@ const Credits = () => {
             <h4 className="text-start">
               <Link
                 className="text-white headerList text-decoration-none fw-bold headerMargin d-flex"
-                to="/music-videos"
+                to="/Joseph-Skillas-Portfolio/music-videos"
               >
                 :Music Videos:
               </Link>
@@ -27,7 +27,7 @@ const Credits = () => {
             <h4>
               <Link
                 className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
-                to="/stills"
+                to="/Joseph-Skillas-Portfolio/stills"
               >
                 :Stills:
               </Link>
@@ -35,7 +35,7 @@ const Credits = () => {
             <h4>
               <Link
                 className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
-                to="/credits"
+                to="/Joseph-Skillas-Portfolio/credits"
               >
                 :Credits:
               </Link>
@@ -43,7 +43,7 @@ const Credits = () => {
             <h4 className="about">
               <Link
                 className="text-white m-2 text-decoration-none contactMargin d-flex"
-                to="/about"
+                to="/Joseph-Skillas-Portfolio/about"
               >
                 :About|Contact:
               </Link>
