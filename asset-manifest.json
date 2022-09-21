@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Joseph-Skillas-Portfolio/static/css/main.b2df08cc.css",
-    "main.js": "/Joseph-Skillas-Portfolio/static/js/main.4304f626.js",
-    "static/js/787.87a5760c.chunk.js": "/Joseph-Skillas-Portfolio/static/js/787.87a5760c.chunk.js",
+    "main.js": "/Joseph-Skillas-Portfolio/static/js/main.c15dce36.js",
     "static/media/ritual.jpg": "/Joseph-Skillas-Portfolio/static/media/ritual.3bf84d36653f703f7199.jpg",
     "static/media/9.jpg": "/Joseph-Skillas-Portfolio/static/media/9.e63431a4afadec028fe6.jpg",
     "static/media/8.jpg": "/Joseph-Skillas-Portfolio/static/media/8.1e7d63113607c7d6802f.jpg",
@@ -14,11 +13,10 @@
     "static/media/scann_20160414_0001.jpg": "/Joseph-Skillas-Portfolio/static/media/scann_20160414_0001.a75f91aefe859253f626.jpg",
     "index.html": "/Joseph-Skillas-Portfolio/index.html",
     "main.b2df08cc.css.map": "/Joseph-Skillas-Portfolio/static/css/main.b2df08cc.css.map",
-    "main.4304f626.js.map": "/Joseph-Skillas-Portfolio/static/js/main.4304f626.js.map",
-    "787.87a5760c.chunk.js.map": "/Joseph-Skillas-Portfolio/static/js/787.87a5760c.chunk.js.map"
+    "main.c15dce36.js.map": "/Joseph-Skillas-Portfolio/static/js/main.c15dce36.js.map"
   },
   "entrypoints": [
     "static/css/main.b2df08cc.css",
-    "static/js/main.4304f626.js"
+    "static/js/main.c15dce36.js"
   ]
 }
