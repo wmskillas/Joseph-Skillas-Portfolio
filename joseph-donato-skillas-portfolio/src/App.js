@@ -5,7 +5,6 @@ import MusicVideos from "./components/MusicVideos";
 import Credits from "./components/Credits";
 import Stills from "./components/Stills";
 import About from "./components/About";
-import ImageCycle from "./components/Carousel";
 import "./App.css";
 import "./custom.css";
 import "bootstrap/dist/css/bootstrap.min.css";

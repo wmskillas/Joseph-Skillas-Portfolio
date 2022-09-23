@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header className="py-5">
-      <h1 className="purpleText text-end">Joseph Donato Skillas</h1>
+      <h1 className="purpleText text-center">Joseph Donato Skillas</h1>
       <div className="flex-direction-row">
         <h4 className="text-start">
           <Link
