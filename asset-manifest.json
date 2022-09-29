@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Joseph-Skillas-Portfolio/static/css/main.72db363b.css",
-    "main.js": "/Joseph-Skillas-Portfolio/static/js/main.b9fc2a3b.js",
+    "main.css": "/Joseph-Skillas-Portfolio/static/css/main.6d76b4a6.css",
+    "main.js": "/Joseph-Skillas-Portfolio/static/js/main.7063814d.js",
     "static/js/787.87a5760c.chunk.js": "/Joseph-Skillas-Portfolio/static/js/787.87a5760c.chunk.js",
     "static/media/ritual.jpg": "/Joseph-Skillas-Portfolio/static/media/ritual.3bf84d36653f703f7199.jpg",
+    "static/media/Joseph.jpeg": "/Joseph-Skillas-Portfolio/static/media/Joseph.8f8bb3f9d56c6152406e.jpeg",
     "static/media/9.jpg": "/Joseph-Skillas-Portfolio/static/media/9.e63431a4afadec028fe6.jpg",
     "static/media/8.jpg": "/Joseph-Skillas-Portfolio/static/media/8.1e7d63113607c7d6802f.jpg",
     "static/media/tingeoffear.jpg": "/Joseph-Skillas-Portfolio/static/media/tingeoffear.66ae6b661ebee210c869.jpg",
@@ -12,12 +13,12 @@
     "static/media/kilter.jpg": "/Joseph-Skillas-Portfolio/static/media/kilter.4a2704d7035b8f63ee68.jpg",
     "static/media/scann_20160414_0001.jpg": "/Joseph-Skillas-Portfolio/static/media/scann_20160414_0001.a75f91aefe859253f626.jpg",
     "index.html": "/Joseph-Skillas-Portfolio/index.html",
-    "main.72db363b.css.map": "/Joseph-Skillas-Portfolio/static/css/main.72db363b.css.map",
-    "main.b9fc2a3b.js.map": "/Joseph-Skillas-Portfolio/static/js/main.b9fc2a3b.js.map",
+    "main.6d76b4a6.css.map": "/Joseph-Skillas-Portfolio/static/css/main.6d76b4a6.css.map",
+    "main.7063814d.js.map": "/Joseph-Skillas-Portfolio/static/js/main.7063814d.js.map",
     "787.87a5760c.chunk.js.map": "/Joseph-Skillas-Portfolio/static/js/787.87a5760c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72db363b.css",
-    "static/js/main.b9fc2a3b.js"
+    "static/css/main.6d76b4a6.css",
+    "static/js/main.7063814d.js"
   ]
 }
