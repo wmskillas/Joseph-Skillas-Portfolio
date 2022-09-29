@@ -29,7 +29,6 @@ body {
   background-size: 3840px;
   background-repeat: repeat;
   background-color: rgb(2, 2, 2);
-  padding-bottom: 10.2rem;
 }
 
 /* changes the name in all areas */
@@ -51,10 +50,25 @@ ul {
   list-style: circle;
 }
 
+.aboutAlign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutPadding {
+  padding-top: 30px;
+}
+
 /* set copyright position */
 .copyRight {
   display: flex;
   justify-content: center;
+}
+
+.flexWrap {
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 /* adjust text area display and text color */
@@ -93,6 +107,10 @@ ul {
   font-weight: bold;
 }
 
+.aboutMargin {
+  padding: 30px;
+}
+
 /* makes spacing for home in header */
 .homeIcon {
   margin-bottom: 10px;
@@ -124,7 +142,7 @@ ul {
 
 /* sets copyright background color */
 .cpBg {
-  background-color: #413d4c;
+  background-color: #413d4cd3;
 }
 
 /* made to adjust header list margin with different screen sizes */
@@ -149,31 +167,69 @@ ul {
   background-color: #413d4cd3;
 }
 
+.aboutBg {
+  background-color: #413d4cd3;
+  background-size: cover;  
+}
+
+.aboutIcon {
+  margin-top: 20px;
+}
+
 .alignVideos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  }
-  
-  .div1 { grid-area: 1 / 1 / 2 / 2; }
-  .div2 { grid-area: 1 / 2 / 2 / 3; }
-  .div3 { grid-area: 2 / 1 / 3 / 2; }
-  .div4 { grid-area: 2 / 2 / 3 / 3; }
-  .div5 { grid-area: 3 / 1 / 4 / 2; }
-  .div6 { grid-area: 3 / 2 / 4 / 3; }
-  .div7 { grid-area: 4 / 1 / 5 / 2; }
-  .div8 { grid-area: 4 / 2 / 5 / 3; }
-  .div9 { grid-area: 5 / 1 / 6 / 2; }
-  .div10 { grid-area: 5 / 2 / 6 / 3; }
-
-.videoMargins {
-margin-left: 10px;
-margin-right: 10px;
-margin-bottom: -40px;
 }
 
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.div6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.div7 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.div8 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.div9 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.div10 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+.imageSize {
+  max-width: 40rem;
+  float: left;
+  margin-right: 20px;
+}
+
+.videoMargins {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -40px;
+}
+
+.aboutMargin {
+  margin-bottom: -10px;
+}
 
 /* sets footer position for copyright */
 .footer {
