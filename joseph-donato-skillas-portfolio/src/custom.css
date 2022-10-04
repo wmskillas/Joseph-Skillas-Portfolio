@@ -26,9 +26,13 @@ header h1 {
 
 body {
   background-image: url("../src/images/scann_20160414_0001.jpg");
-  background-size: 3840px;
+  background-size: cover;
   background-repeat: repeat;
   background-color: rgb(2, 2, 2);
+}
+
+.navbarSpacing {
+  color: white;
 }
 
 /* changes the name in all areas */
@@ -68,7 +72,7 @@ ul {
 
 .flexWrap {
   align-items: flex-start;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /* adjust text area display and text color */
@@ -122,6 +126,10 @@ ul {
   margin-top: -20px;
 }
 
+.marginBottom {
+  margin-bottom: 10rem;
+}
+
 /* sets the background color and size for the text area */
 .textBg {
   background-color: #413d4cd3;
@@ -169,7 +177,7 @@ ul {
 
 .aboutBg {
   background-color: #413d4cd3;
-  background-size: cover;  
+  background-size: cover;
 }
 
 .aboutIcon {
@@ -240,17 +248,17 @@ ul {
   width: 100%;
 }
 
-@media screen and (max-width: 2560px) {
+/* @media screen and (max-width: 2560px) {
   body {
     background-size: 2560px;
   }
-}
+} */
 
-@media screen and (max-width: 1920px) {
+/* @media screen and (max-width: 1920px) {
   body {
     background-size: 2100px;
   }
-}
+} */
 @media screen and (max-width: 1600px) {
   .headerMargin {
     margin-right: 20px;
@@ -260,12 +268,12 @@ ul {
   }
 }
 
-@media screen and (max-width: 1050px) {
+/* @media screen and (max-width: 1050px) {
   body {
     background-size: 235rem;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
-}
+} */
 
 @media screen and (max-width: 1400px) {
   .textBg {
@@ -274,20 +282,87 @@ ul {
   .carouselSize {
     margin-bottom: 1rem;
   }
+  .navbarSpacing {
+    padding-left: 100px;
+    background-color: #413d4cd3;
+    display: flex;
+    width: 1400px;
+    justify-content: flex-end;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  header {
+  /* header {
     width: 1300px;
-  }
+  } */
 }
-@media screen and (max-width: 900px) {
-  .carouselSize {
-    margin-left: 40px;
+@media screen and (max-width: 1024px) {
+
+  .navbarSpacing {
+    padding-left: 100px;
+    background-color: #413d4cd3;
+    display: flex;
+    width: 1024px;
+    justify-content: flex-end;
   }
+  .imageSize {
+    max-width: 30rem;
+    float: left;
+    margin-right: 20px;
+  }
+  .purpleText {
+    font-size: 60px;
+  }
+  .headerMargin {
+    margin-right: 0px;
+  }
+.aboutSizing {
+  width: 1024px;
 }
-@media screen and (max-width: 650px) {
-  .carouselSize {
-    margin-left: 70px;
-  }
+.marginBottom {
+  margin-bottom: 0px;
+}
+.carouselSize {
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+.homeText {
+  margin-left: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textBg {
+  padding-left: 90px;
+  padding-right: 150px;
+}
+.homeWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.alignVideos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 160px;
+}
+.videoMargins {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.titleBg {
+  padding-left: 512px;
+  padding-right: 512px;
+}
+}
+@media screen and (max-width: 485px) {
+.textSize {
+  font-size: 35px;
+}
+.headerText {
+  font-size: 30px;
+}
+
+
 }

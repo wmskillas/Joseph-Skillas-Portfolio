@@ -4,11 +4,11 @@ import { Icon } from "@iconify/react";
 
 const About = () => {
   return (
-    <div className="homepage aboutPadding aboutBg">
+    <div className="homepage aboutPadding aboutBg aboutSizing">
       <div className="divHeight display-flex textSize text-white aboutMargin">
         <div className="flexWrap">
           <img className="imageSize" src={Joseph}></img>
-          <p>
+          <p className="">
             1996 born and raised in Atlanta, Georgia to an Italian immigrant
             mother and an Ohio born father.{" "}
           </p>

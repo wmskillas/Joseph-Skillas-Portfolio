@@ -4,7 +4,7 @@ const Stills = () => {
   return (
     <div className="homepage ">
       <div className="divHeight display-flex">
-        <div>
+        <div className="marginBottom">
           <h1>Stills</h1>
         </div>
         <footer>

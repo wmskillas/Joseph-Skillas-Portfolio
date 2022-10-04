@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header className="py-5">
+    <header className="py-5 navbarSpacing">
       <h1 className="purpleText text-center">Joseph Donato Skillas</h1>
       <div className="flex-direction-row">
         <h4 className="text-start">
           <Link
             to="/Joseph-Skillas-Portfolio/"
-            className="text-white headerList text-decoration-none headerMargin d-flex homeIcon"
+            className="text-white headerList text-decoration-none headerMargin d-flex homeIcon headerText"
           >
             :Home:
           </Link>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <h4 className="text-start">
           <Link
             to="/Joseph-Skillas-Portfolio/music-videos"
-            className="text-white headerList text-decoration-none fw-bold headerMargin d-flex"
+            className="text-white headerList text-decoration-none fw-bold headerMargin d-flex headerText"
           >
             :Music Videos:
           </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <h4 className="text-start">
           <Link
             to="/Joseph-Skillas-Portfolio/stills"
-            className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
+            className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex headerText"
           >
             :Stills:
           </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
         <h4 className="text-start">
           <Link
             to="/Joseph-Skillas-Portfolio/credits"
-            className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex"
+            className="text-white m-2 text-decoration-none fw-bold headerMargin d-flex headerText"
           >
             :Credits:
           </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
         <h4 className="about">
           <Link
             to="/Joseph-Skillas-Portfolio/about"
-            className="text-white m-2 text-decoration-none contactMargin d-flex"
+            className="text-white m-2 text-decoration-none contactMargin d-flex headerText"
           >
             :About|Contact:
           </Link>

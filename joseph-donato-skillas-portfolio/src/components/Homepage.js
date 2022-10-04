@@ -4,13 +4,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Homepage = () => {
   return (
-    <div className="homepage ">
+    <div className="">
       <div className="divHeight display-flex">
-        <div className="mt-5 textAlign container">
+        <div className="mt-5 textAlign container marginBottom homeWrap">
           <div className="">
             <Carousel />
           </div>
-          <div className="textBg fw-bold textSize">
+          <div className="textBg fw-bold textSize homeText">
             <p className="text-white hpMarginLeft">
               Visual artist from Atlanta, Georgia
             </p>
