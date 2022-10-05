@@ -9,29 +9,7 @@ const MusicVideos = () => {
             <h1 className="titleAlign">Music Videos</h1>
           </div>
           <div className="alignVideos">
-          <div className="videoMargins div1">
-              <iframe
-              title="Where You Are"
-                width="640"
-                height="360"
-                src="https://player.vimeo.com/video/352382164?h=e8c3623d32"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <div className="videoMargins div2">
-              <iframe
-              title="aizu forest"
-                src="https://player.vimeo.com/video/197635749?h=38885583fd"
-                width="640"
-                height="360"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <div className="videoMargins div3">
+            <div className="videoMargins div1">
               <iframe
                 title="tired in the morning"
                 width="640"
@@ -42,7 +20,7 @@ const MusicVideos = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <div className="videoMargins div4">
+            <div className="videoMargins div2">
               <iframe
                 width="640"
                 height="360"
@@ -50,6 +28,28 @@ const MusicVideos = () => {
                 title="White Paper Ballot"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="videoMargins div3">
+              <iframe
+              title="Where You Are"
+                width="640"
+                height="360"
+                src="https://player.vimeo.com/video/352382164?h=e8c3623d32"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="videoMargins div4">
+              <iframe
+              title="aizu forest"
+                src="https://player.vimeo.com/video/197635749?h=38885583fd"
+                width="640"
+                height="360"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
