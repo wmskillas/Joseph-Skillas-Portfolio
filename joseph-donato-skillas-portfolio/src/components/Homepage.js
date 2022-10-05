@@ -7,10 +7,10 @@ const Homepage = () => {
     <div className="">
       <div className="divHeight display-flex">
         <div className="mt-5 textAlign container marginBottom homeWrap">
-          <div className="">
+          <div className="homeSizing">
             <Carousel />
           </div>
-          <div className="textBg fw-bold textSize homeText">
+          <div className="textBg fw-bold textSize homeText homeSizing">
             <p className="text-white hpMarginLeft">
               Visual artist from Atlanta, Georgia
             </p>

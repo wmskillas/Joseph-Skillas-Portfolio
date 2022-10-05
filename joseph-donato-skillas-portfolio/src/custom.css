@@ -180,6 +180,15 @@ ul {
   background-size: cover;
 }
 
+.cameraTitle {
+  color: white;
+  font-size: 55px;
+}
+.creditsAlign {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .aboutIcon {
   margin-top: 20px;
 }
@@ -233,6 +242,12 @@ ul {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: -40px;
+}
+
+.creditsMargins {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
 }
 
 .aboutMargin {
@@ -297,7 +312,6 @@ ul {
   } */
 }
 @media screen and (max-width: 1024px) {
-
   .navbarSpacing {
     padding-left: 100px;
     background-color: #413d4cd3;
@@ -316,53 +330,73 @@ ul {
   .headerMargin {
     margin-right: 0px;
   }
-.aboutSizing {
-  width: 1024px;
+  .aboutSizing {
+    width: 1024px;
+  }
+  .marginBottom {
+    margin-bottom: 0px;
+  }
+  .carouselSize {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .homeText {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .textBg {
+    padding-left: 90px;
+    padding-right: 150px;
+  }
+  .homeWrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .alignVideos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 160px;
+  }
+  .videoMargins {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .titleBg {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    width: 900px;
+  }
+  .creditsAlign {
+    justify-content: center;
+  }
 }
-.marginBottom {
-  margin-bottom: 0px;
-}
-.carouselSize {
-  margin-left: 80px;
-  display: flex;
-  justify-content: center;
-  padding-right: 30px;
-}
-.homeText {
-  margin-left: 140px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.textBg {
-  padding-left: 90px;
-  padding-right: 150px;
-}
-.homeWrap {
-  display: flex;
-  flex-wrap: wrap;
-}
-.alignVideos {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 160px;
-}
-.videoMargins {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.titleBg {
-  padding-left: 512px;
-  padding-right: 512px;
-}
+
+@media screen and (max-width: 768px) {
+  .creditsAlign {
+    margin-left: 300px;
+  }
+  .homeSizing {
+    margin-left: 150px;
+  }
+  .carouselSize {
+    width: auto;
+  }
 }
 @media screen and (max-width: 485px) {
-.textSize {
-  font-size: 35px;
-}
-.headerText {
-  font-size: 30px;
-}
-
-
+  .textSize {
+    font-size: 35px;
+  }
+  .headerText {
+    font-size: 30px;
+  }
+  .creditsAlign {
+    margin-left: 500px;
+  }
 }
