@@ -238,6 +238,35 @@ ul {
   margin-right: 20px;
 }
 
+.stillSizing {
+  max-width: 38rem;
+  height: auto;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.stillMargins {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#red {
+  text-shadow: 5px 5px red;
+}
+
+#purple {
+  text-shadow: 5px 5px blueviolet;
+}
+
+#stillImage {
+  max-height: 35rem;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
 .videoMargins {
   margin-left: 10px;
   margin-right: 10px;
@@ -388,6 +417,9 @@ ul {
   .carouselSize {
     width: auto;
   }
+  .stillMargins {
+    margin-left: 300px;
+  }
 }
 @media screen and (max-width: 485px) {
   .textSize {
@@ -398,5 +430,8 @@ ul {
   }
   .creditsAlign {
     margin-left: 500px;
+  }
+  .stillMargins {
+    margin-left: 450px;
   }
 }
