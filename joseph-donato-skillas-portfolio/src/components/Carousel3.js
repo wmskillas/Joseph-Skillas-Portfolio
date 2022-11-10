@@ -9,7 +9,7 @@ import Image7 from "../images/ritual.jpg";
 import { Carousel } from "react-responsive-carousel";
 
 export default () => (
-  <Carousel autoPlay infiniteLoop stopOnHover thumbWidth={90} onClickItem>
+  <Carousel autoPlay infiniteLoop stopOnHover thumbWidth={90} onClickItem emulateTouch>
     <div className="carouselSize">
       <img alt="breakdown.img" src={Image1} />
     </div>

@@ -19,7 +19,7 @@ import Image17 from "../images/20.jpg";
 import { Carousel } from "react-responsive-carousel";
 
 export default () => (
-  <Carousel autoPlay infiniteLoop stopOnHover thumbWidth={90} onClickItem>
+  <Carousel autoPlay infiniteLoop stopOnHover thumbWidth={90} onClickItem emulateTouch>
     <div className="carouselSize">
       <img alt="1.img" src={Image1} />
     </div>
