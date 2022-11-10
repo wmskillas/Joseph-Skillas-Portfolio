@@ -24,8 +24,8 @@ const MusicVideos = () => {
               <iframe
                 width="640"
                 height="360"
-                src="https://www.youtube.com/embed/akIi11_09-Q"
-                title="White Paper Ballot"
+                src="https://www.youtube.com/embed/XmLzOgJbDwM"
+                title="I Could Live In Sleep"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -44,12 +44,12 @@ const MusicVideos = () => {
             </div>
             <div className="videoMargins div4">
               <iframe
-                title="aizu forest"
-                src="https://player.vimeo.com/video/197635749?h=38885583fd"
                 width="640"
                 height="360"
+                src="https://www.youtube.com/embed/akIi11_09-Q"
+                title="White Paper Ballot"
                 frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
@@ -114,6 +114,17 @@ const MusicVideos = () => {
                 src="https://player.vimeo.com/video/215427292?h=80547ec184"
                 width="640"
                 height="470"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="videoMargins div11" id="centerVideo">
+              <iframe
+                title="aizu forest"
+                src="https://player.vimeo.com/video/197635749?h=38885583fd"
+                width="640"
+                height="360"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen

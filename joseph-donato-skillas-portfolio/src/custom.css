@@ -193,10 +193,14 @@ ul {
   margin-top: 20px;
 }
 
+#centerVideo {
+  margin-top: 70px;
+}
+
 .alignVideos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -230,6 +234,12 @@ ul {
 }
 .div10 {
   grid-area: 5 / 2 / 6 / 3;
+}
+.div11 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.div12 {
+  grid-area: 6 / 2 / 7 / 3;
 }
 
 .imageSize {
